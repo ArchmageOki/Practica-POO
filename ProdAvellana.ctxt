@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ProdAvellana
+comment0.text=\r\n\ Hace\ referencia\ a\ cada\ uno\ de\ los\ cultivos.\r\n
+comment1.params=persona\ extension\ database
+comment1.target=ProdAvellana(Persona,\ double,\ Database)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ ProdAvellana.\r\n
+comment2.params=nuevoValorPorKg\ database
+comment2.target=void\ actualizarValores(double,\ Database)
+comment2.text=\r\n\ Actualiza\ el\ valor\ por\ kg\ del\ producto.\r\n
+comment3.params=
+comment3.target=double\ getRendimiento()
+comment3.text=\r\n\ Devuelve\ el\ rendimiento\ en\ toneladas\ por\ hect\u00E1rea.\r\n
+comment4.params=
+comment4.target=double\ getValorPorKg()
+comment4.text=\r\n\ Devuelve\ el\ valor\ por\ kg\ de\ producto.\r\n
+comment5.params=rendimiento
+comment5.target=void\ setRendimiento(double)
+comment5.text=\r\n\ Modifica\ el\ rendimiento\ del\ producto.\ Si\ el\ valor\ introducido\r\n\ es\ menor\ o\ igual\ a\ 0,\ su\ rendimiento\ se\ establece\ en\ 0.\r\n
+comment6.params=valorPorKg
+comment6.target=void\ setValorPorKg(double)
+comment6.text=\r\n\ Modifica\ el\ valor\ por\ kg\ del\ producto.\ Si\ el\ valor\ introducido\r\n\ es\ menor\ o\ igual\ a\ 0,\ se\ establece\ en\ 0.\r\n
+comment7.params=
+comment7.target=double\ getCantidadDisponible()
+comment7.text=\r\n\ Devuelve\ las\ toneladas\ disponibles.\r\n
+numComments=8

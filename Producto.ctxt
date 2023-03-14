@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Producto
+comment0.text=\r\n\ Hace\ referencia\ a\ cada\ producto\ que\ se\ puede\ plantar.\r\n
+comment1.params=nombreProducto\ persona\ perecedero\ extension
+comment1.target=Producto(java.lang.String,\ Persona,\ boolean,\ double)
+comment1.text=\r\n\ Constructor.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombreProducto()
+comment2.text=\r\n\ Devuelve\ el\ nombre.\r\n
+comment3.params=
+comment3.target=Persona\ getPropietario()
+comment3.text=\r\n\ Devuelve\ el\ propietario\ (objeto).\r\n
+comment4.params=
+comment4.target=boolean\ getPerecedero()
+comment4.text=\r\n\ Devuelve\ si\ es\ perecedero\ o\ no.\r\n
+comment5.params=
+comment5.target=double\ getExtension()
+comment5.text=\r\n\ Devuelve\ la\ extensi\u00F3n\ del\ cultivo\ en\ ha.\r\n
+comment6.params=
+comment6.target=double\ getCantidadDisponible()
+comment6.text=\r\n\ M\u00E9todo\ base\ para\ obtener\ la\ cantidad\ disponible\r\n\ de\ producto\ en\ cada\ subclase.\r\n
+numComments=7

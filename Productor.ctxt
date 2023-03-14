@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Productor
+comment0.text=\r\n\ Hace\ referencia\ a\ cada\ una\ de\ las\ personas.\ \u00C9stas\ pueden\ poseer\ hasta\ 5\ productos\ diferentes\r\n\ y\ no\ pueden\ superar\ en\ extensi\u00F3n\ al\ limite\ anual\ marcado\ para\ ser\ consideradas\ peque\u00F1os\r\n\ productores.\ Si\ superan\ estas\ cantidades,\ pasar\u00E1n\ a\ ser\ consideradas\ grandes\ productores.\r\n
+comment1.params=producto\ database
+comment1.target=Productor(Producto,\ Database)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Productor\r\n
+comment2.params=producto\ database
+comment2.target=void\ addCultivo(Producto,\ Database)
+comment2.text=\r\n\ A\u00F1ade\ un\ producto\ y\ suma\ su\ extensi\u00F3n\ con\ el\ valor\ anterior.\ Despu\u00E9s\r\n\ comprueba\ si\ ha\ cambiado\ el\ tipo\ de\ productor.\r\n
+comment3.params=
+comment3.target=double\ getExtension()
+comment3.text=\r\n\ Devuelve\ la\ extension.\r\n
+comment4.params=extension
+comment4.target=void\ setExtension(double)
+comment4.text=\r\n\ Establece\ la\ extension\r\n
+comment5.params=
+comment5.target=java.util.ArrayList\ getProductos()
+comment5.text=\r\n\ Devuelve\ el\ ArrayList\ de\ productos.\r\n
+comment6.params=producto\ database
+comment6.target=void\ removeCultivo(Producto,\ Database)
+comment6.text=\r\n\ Elimina\ un\ producto\ y\ resta\ su\ extensi\u00F3n\ a\ la\ total.\ Despu\u00E9s\ comprueba\r\n\ si\ ha\ cambiado\ el\ tipo\ de\ productor.\ Si\ el\ producto\ introducido\ no\ est\u00E1\r\n\ dentro\ de\ la\ lista,\ se\ imprime\ un\ mensaje\ de\ error.\r\n
+comment7.params=
+comment7.target=void\ setTipoProductor()
+comment7.text=\r\n\ Determina\ si\ el\ productor\ es\ peque\u00F1o\ o\ es\ un\ gran\r\n\ productor.\ Es\ private\ porque\ se\ le\ llama\ desde\ otras\r\n\ funciones\ \u00FAnicamente.\r\n
+numComments=8

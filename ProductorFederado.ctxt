@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ProductorFederado
+comment0.text=\r\n\ Hace\ referencia\ a\ cada\ una\ de\ las\ agrupaciones\ de\ personas\ que\ han\r\n\ puesto\ su\ terreno\ en\ com\u00FAn\ para\ ser\ consideradas\ productores\ federados.\r\n\ Solo\ puede\ haber\ un\ productor\ federado\ de\ cada\ tipo\ de\ producto\ y\ la\r\n\ superficie\ total\ de\ \u00E9ste\ no\ puede\ superar\ el\ l\u00EDmite\ marcado\ por\ la\r\n\ cooperativa.\ Puede\ estar\ formado\ por\ cualquier\ n\u00FAmero\ de\ personas\r\n\ siempre\ que\ no\ se\ supere\ este\ l\u00EDmite.\r\n
+comment1.params=producto
+comment1.target=ProductorFederado(Producto)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ ProductorFederado.\r\n
+comment2.params=producto
+comment2.target=void\ addCultivo(Producto)
+comment3.params=producto
+comment3.target=void\ removeCultivo(Producto)
+comment4.params=
+comment4.target=java.util.ArrayList\ getProductos()
+comment4.text=\r\n\ Devuelve\ el\ ArrayList\ de\ productos.\r\n
+numComments=5

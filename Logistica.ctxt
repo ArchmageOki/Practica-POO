@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Logistica
+comment0.text=\r\n\ Clase\ que\ sirve\ de\ base\ para\ la\ log\u00EDstica.\r\n
+comment1.params=tramo\ precioPorKm
+comment1.target=Logistica(int,\ float)
+comment1.text=\r\n\ Constructor.\r\n
+numComments=2
