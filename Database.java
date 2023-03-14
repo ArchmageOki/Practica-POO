@@ -9,6 +9,10 @@ import java.util.Arrays;
  */
 public class Database {
     public static int anno;
+    public static List<String> nombresProductos = Arrays.asList("Lechuga", "Tomate", "Aceituna",
+    "Fresa", "Naranja", "Patata", "Pepino", "Aceite", "Trigo", "Maiz", "Girasol", "Avellana",
+    "Garbanzo", "Avena");
+    
     private List<Persona> personas;
     private List<Productor> productores;
     private List<ProductorFederado> productoresFederados;
@@ -40,13 +44,13 @@ public class Database {
      */
     public void imprimirProductosDisponibles() {
         System.out.println("PRODUCTOS DISPONIBLES");
-        System.out.println("---------------------");
+        System.out.println("--------------------------");
         System.out.printf("%-15s %10s\n", "PRODUCTO", "TONELADAS");
-        System.out.println("---------------------");
+        System.out.println("--------------------------");
         for(Map.Entry<String, Double> entry : productoDisponible.entrySet()) {
             System.out.printf("%-15s %,10.2f\n", entry.getKey(), entry.getValue());
         }
-        System.out.println("---------------------");
+        System.out.println("--------------------------");
     }
     
     /**
@@ -86,9 +90,6 @@ public class Database {
      */
     private void initProductoDisponible() {
         productoDisponible.clear();
-        List<String> nombresProductos = Arrays.asList("Lechuga", "Tomate", "Aceituna", "Fresa",
-                                        "Naranja", "Patata", "Pepino", "Aceite", "Trigo", "Maiz",
-                                        "Girasol", "Avellana", "Garbanzo", "Avena");
         for(String nombre : nombresProductos) {
             productoDisponible.put(nombre, 0.0);
         }

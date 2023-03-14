@@ -16,7 +16,6 @@ USER INSTRUCTIONS:
 
 TO DO:
     
-    -Hacer que las subclases de Producto se construyana través de
-    Productor y ProductorFederado.
+    -Hacer que ProductorFederado haga lo mismo que Productor.
     
     -Crear la logística.
